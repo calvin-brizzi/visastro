@@ -1,4 +1,7 @@
-# First Meeting
+---
+layout: page
+---
+
 We're lucky and unlucky at the same time. Lots to choose from makes it harder to choose. Should start exploring what's out there before committing to anything.
 
 Bryce and Laurisha are keen to work on visualization aspect, Calvin on algorithmic backend/analysis possibly using GPGPU.
