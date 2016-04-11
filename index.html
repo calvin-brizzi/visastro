@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<div class="home">
+    <h2>Intro</h2>
+    <p>The Square Kilometer Array (SKA), which will be the largest radio telescope in the
+ world, has vastly increased the focus on astronomical research in our country. The size and complexity
+ of this telescope(not to mention the future SKA) will vastly increase radio astronomical data output,
+ generating multi-terabyte data cubes that are several orders of magnitude larger than the current
+ norm.There is currently a UCT focus on visualization for Big Data in Astronomy. We have a
+ collaboration with the Astronomy Department at UCT to build software tools to assist with processing
+ and analysing the increased volume of data. A previous (published*) Honours project designed the
+ AstroVis system to enable simple 3D visualisation of very large astronomical data cubes on desktop
+ computers. In this project, you will extend this project, and develop a new visualizations or combined
+ existing approaches innovatively to enable astronomers to explore and compare 3D radio astronomy
+ data cubes. </p>
+
+  <!--
+  <h1 class="">Resources</h1>
+
+  <h2 class="">Documents</h2>
+    <ul>
+        <li><a href="docs/Proposal.pdf" target="_blank">Project Proposal</a></li>
+        <li><a href="docs/ODNSIO001_LiteratureReview.pdf">Review of 3D Scene Manipulations</a></li>
+        <li><a href="docs/RYBSTE001_LiteratureReview.pdf">Review of 3D Rotation Controllers</a></li>
+        <li><a href="docs/web_presence_proposal.html">Proposal and plan for the website</a></li>
+        <li><a href="docs/timeline.jpg">Timeline</a></li>
+        <li><a href="docs/poster.pdf">Poster</a></li>
+        <li><a href="docs/ODNSIO001_Paper_Submission.pdf">Report on Interactive Shadows Evaluation</a></li>
+        <li><a href="docs/RYBSTE001_3DUI_Handin.pdf">Report on 3D Rotation Controller Evaluation</a></li>
+    </ul>
+-->
+  <h2 class>Minutes</h2>
+  <ul>
+    {% for post in site.posts %}
+      <li>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d, %Y" }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
