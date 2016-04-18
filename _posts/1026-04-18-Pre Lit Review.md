@@ -14,8 +14,10 @@ Conference a good source, look over notes and see what we can learn.
 
 ### Deliverables
 Due 19-08
+
 - Calvin's updated scaffolding
 - Laurisha has more time as she's pivoting
 
 Due Friday-ish
+
 - First draft of Literature Review, Michelle will do one thorough criticism before final draft is due.
