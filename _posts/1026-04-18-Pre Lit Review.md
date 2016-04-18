@@ -2,16 +2,20 @@
 layout: page
 ---
 
-We're lucky and unlucky at the same time. Lots to choose from makes it harder to choose. Should start exploring what's out there before committing to anything.
+Bryce's scaffolding is good, Calvin's needs more detail, Laurisha is pivoting to looking at UIs and usability (good! Early in the project), possibly tying in with annotations, selection and relating to things in a catalogue. Literature review should also talk about usability and how we evaluate said usability (especially for scientific software!).  
+At some point we'll need to decide how to split proposal once we have all decided our exact focus.
 
-Bryce and Laurisha are keen to work on visualization aspect, Calvin on algorithmic backend/analysis possibly using GPGPU.
+Think about 3D overlays (have people done this before, has it worked?).
+At this point best move is to find something cool that hasn't been done or evaluated before, do and evaluate it.
 
-Best move is starting with past year's paper and work through their references and those references' references.
+Calvin should focus on analysis and statistics of volumetric regions and how to select those regions etc. So during literature review look for examples from all disciplines that allow for extraction and manipulation of subregions, see what kind of data can be found.
 
-Main objective for next week is a skeleton of the lit review (a contents table, but more detailed.)
+Conference a good source, look over notes and see what we can learn.
 
-Visualization people should focus on surface visualizations, comparing radio and optical data, tagging and selecting. Should start lit review together, but focus on different things.
+### Deliverables
+Due 19-08
+- Calvin's updated scaffolding
+- Laurisha has more time as she's pivoting
 
-More meetings need to be planned with Sarah Blythe, for exactly what kind of things people need.
-
-Meeting again on Monday, skeleton's done.
+Due Friday-ish
+- First draft of Literature Review, Michelle will do one thorough criticism before final draft is due.
