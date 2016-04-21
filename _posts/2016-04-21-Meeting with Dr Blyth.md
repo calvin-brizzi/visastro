@@ -1,3 +1,6 @@
+---
+layout: page
+---
 
 _Short meeting between Calvin and Dr Blyth_
 
