@@ -3,26 +3,46 @@ layout: default
 ---
 
 <div class="home">
-    <h2>Intro</h2>
-    <p>The Square Kilometer Array (SKA), which will be the largest radio telescope in the
- world, has vastly increased the focus on astronomical research in our country. The size and complexity
- of this telescope(not to mention the future SKA) will vastly increase radio astronomical data output,
- generating multi-terabyte data cubes that are several orders of magnitude larger than the current
- norm.There is currently a UCT focus on visualization for Big Data in Astronomy. We have a
- collaboration with the Astronomy Department at UCT to build software tools to assist with processing
- and analysing the increased volume of data. A previous (published*) Honours project designed the
- AstroVis system to enable simple 3D visualisation of very large astronomical data cubes on desktop
- computers. In this project, you will extend this project, and develop a new visualizations or combined
- existing approaches innovatively to enable astronomers to explore and compare 3D radio astronomy
- data cubes. </p>
+    <h2>Context</h2>
+    <p>
+      Observations from radio telescopes are stored in multi-dimensional arrays (3-dimensional data cubes or higher) which are then analysed by radio astronomers. This analysis is enabled by the use of multiple visualization tools. While these tools are incredibly powerful, they have many limitations which are exacerbated by the sheer scale the data is reaching, with projects like the SKA predicting an <a href="https://www.wired.com/2012/04/what-to-do-with-1000000000000000000-bytes-of-astronomical-data-per-day/">exabyte of data every day.</a>
+    </p>
+    <p>
+      We believe existing software can be improved by involving users in interface design and implementing features that make user's lives easier, like overlaying optical catalogues or giving users the ability to select subvolumes and automatically analyse them.
+    </p>
 
+    <h2>Goals</h2>
+<ul>
+  <li>Determine whether the use of User Centred Design (UCD) principles in the design of a software interface for astronomy visualization, will produce a design that is useful, usable and effective.</li>
+  <li>Develop an effective method for the overlay of optical data catalogues on 3D radio data cubes. </li>
+  <li>Justify the implementation of 3D selection and automated analysis in current tools, through expert evaluation.</li>
+</ul>
+
+<h2>Results</h2>
+<h3>Usability in Astronomy Visualization Software Interfaces</h3>
+<img src="img/UCD_overview.png" alt="Final Iteration of the Prototype Interface Design" >
+
+<p>
+  Frequent consultation with domain experts produced a much more usable, useful and effective interface, making this approach worthwhile. The overall design improved over iterations and expert users felt the final design was an improvement on existing interfaces. Novel features such as comparisons, annotations and capturing images were highly useful additions. These findings can be applied when developing types of other scientific software as well.
+</p>
+<h3>Overlay of Optical Data Catalogues</h3>
+<img src="img/overlay_overview.png" alt="Overlay with Optical Catalogue Loaded" >
+
+<p>
+  Results showed that the overlay is easy to use and the markers were relatively accurate. This functionality is likely to reduce the number of manual operations and help astronomers easily visualize points of interest such as galaxy clusters.
+</p>
+<h3>User-defined Selection and Analysis</h3>
+<img src="img/selection_overview.png" alt="Interface for 3D selection" >
+
+<p>
+  Expert testing demonstrated that the features would improve existing options, Elliptical Cylinder selection in particular providing the biggest gains, with automated analysis and plain text export complementing it, while still being useful in their own right.
+</p>
   <!--
   <h1 class="">Resources</h1>
 
   <h2 class="">Documents</h2>
     <ul>
-        <li><a href="docs/Proposal.pdf" target="_blank">Project Proposal</a></li>
-        <li><a href="docs/ODNSIO001_LiteratureReview.pdf">Review of 3D Scene Manipulations</a></li>
+Effective and efficient visualization of radio astronomy data cubesEffective and efficient visualization of radio astronomy data cubesEffective and efficient visualization of radio astronomy data cubes        <li><a href="docs/ODNSIO001_LiteratureReview.pdf">Review of 3D Scene Manipulations</a></li>
         <li><a href="docs/RYBSTE001_LiteratureReview.pdf">Review of 3D Rotation Controllers</a></li>
         <li><a href="docs/web_presence_proposal.html">Proposal and plan for the website</a></li>
         <li><a href="docs/timeline.jpg">Timeline</a></li>
