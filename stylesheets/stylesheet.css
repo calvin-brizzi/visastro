@@ -234,33 +234,6 @@ a:hover {
     padding: 2rem 0.5rem;
     font-size: 1rem; } }
 
-.site-footer {
-  padding-top: 2rem;
-  margin-top: 2rem;
-  border-top: solid 1px #eff0f1; }
-
-.site-footer-owner {
-  display: block;
-  font-weight: bold; }
-
-.site-footer-credits {
-  color: #819198; }
-
-@media screen and (min-width: 64em) {
-  .site-footer {
-    font-size: 1rem; } }
-
-@media screen and (min-width: 42em) and (max-width: 64em) {
-  .site-footer {
-    font-size: 1rem; } }
-
-@media screen and (max-width: 42em) {
-  .site-footer {
-    font-size: 0.9rem; } }
-
-
-}
-
 .post-meta {
     padding-left: 1.5rem;
     padding-bottom: 0.5rem;
@@ -279,28 +252,24 @@ a:hover {
   padding-top: 25px;
 }
 
-@media screen and (min-width: 42em) {
-  .sharing-buttons {
-    max-width: 80%;
-    margin: 0 auto;} }
 
-    /** Site footer */
-    .site-footer { color: white; border-top: 1px solid #e8e8e8; background-image: url("/visastro/img/cover.jpg"); }
+/** Site footer */
+.site-footer { color: white; border-top: 1px solid #e8e8e8; background-image: url("/visastro/img/cover.jpg"); }
 
-    .footer-heading { font-size: 18px; margin-bottom: 15px; }
+.footer-heading { font-size: 18px; margin-bottom: 15px; }
 
-    .contact-list, .social-media-list { list-style: none; margin-left: 0; }
+.contact-list, .social-media-list { list-style: none; margin-left: 0; }
 
-    .footer-col-wrapper { text-shadow: 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2); font-size: 15px; color: black; margin-left: -15px; }
+.footer-col-wrapper { text-shadow: 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2); font-size: 15px; color: black; margin-left: -15px; }
 
-    .footer-col { float: left; margin-bottom: 15px; padding-left: 15px; }
+.footer-col { float: left; margin-bottom: 15px; padding-left: 15px; }
 
-    .footer-col-1 { width: -webkit-calc(35% - (30px / 2)); width: calc(35% - (30px / 2)); }
+.footer-col-1 { width: -webkit-calc(35% - (30px / 2)); width: calc(35% - (30px / 2)); }
 
-    .footer-col-2 { width: -webkit-calc(20% - (30px / 2)); width: calc(20% - (30px / 2)); }
+.footer-col-2 { width: -webkit-calc(20% - (30px / 2)); width: calc(20% - (30px / 2)); }
 
-    .footer-col-3 { width: -webkit-calc(45% - (30px / 2)); width: calc(45% - (30px / 2)); }
+.footer-col-3 { width: -webkit-calc(45% - (30px / 2)); width: calc(45% - (30px / 2)); }
 
-    @media screen and (max-width: 800px) { .footer-col-1, .footer-col-2 { width: -webkit-calc(50% - (30px / 2)); width: calc(50% - (30px / 2)); }
-      .footer-col-3 { width: -webkit-calc(100% - (30px / 2)); width: calc(100% - (30px / 2)); } }
-    @media screen and (max-width: 600px) { .footer-col { float: none; width: -webkit-calc(100% - (30px / 2)); width: calc(100% - (30px / 2)); } }
+@media screen and (max-width: 800px) { .footer-col-1, .footer-col-2 { width: -webkit-calc(50% - (30px / 2)); width: calc(50% - (30px / 2)); }
+  .footer-col-3 { width: -webkit-calc(100% - (30px / 2)); width: calc(100% - (30px / 2)); } }
+@media screen and (max-width: 600px) { .footer-col { float: none; width: -webkit-calc(100% - (30px / 2)); width: calc(100% - (30px / 2)); } }
