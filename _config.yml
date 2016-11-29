@@ -7,7 +7,7 @@
 
 # Site settings
 title:  Novel Approaches To Astronomy Visualization Software
-description: Honours project work by Calvin Brizzi, Bryce Billing and Laurisha Rampesad of the University of Cape Town # write a nice description for your blog
+description: Honours project work by Calvin Brizzi, Bryce Billing and Laurisha Rampesad of the University of Cape Town supervised by Assoc. Prof Michelle Kuttel, Dr. Sarah Blythe and Assoc. Prof James Gain.  # write a nice description for your blog
 baseurl: /visastro # the subpath of your site, e.g. /blog
 url: '' # the base hostname & protocol for your site http://www.example.com
 # google_analytics: 'UA-XXXXXX-X'
